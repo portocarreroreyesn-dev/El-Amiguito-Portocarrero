@@ -1,0 +1,26 @@
+
+:root{--accent:#ff6600;--bg:#fff8e7;--muted:#666}
+*{box-sizing:border-box}
+body{font-family:Arial, Helvetica, sans-serif;margin:0;color:#333;background:var(--bg)}
+header{background:var(--accent);color:#fff;padding:30px 20px;text-align:center}
+nav{display:flex;justify-content:center;gap:18px;background:#ff8533;padding:12px 0}
+nav a{color:#fff;text-decoration:none;font-weight:700}
+.banner{background-image:url('https://images.unsplash.com/photo-1589927986089-3581237885d6?auto=format&fit=crop&w=1350&q=80');background-size:cover;background-position:center;height:360px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:2rem;font-weight:700;text-shadow:2px 2px 6px rgba(0,0,0,0.6)}
+.container{max-width:1000px;margin:0 auto;padding:28px}
+.section{padding:24px 16px;text-align:center}
+.section h2{color:var(--accent);margin-bottom:14px}
+.productos{display:flex;flex-wrap:wrap;justify-content:center;gap:18px}
+.producto{background:#fff3e0;border-radius:10px;padding:14px;width:230px;box-shadow:0 2px 6px rgba(0,0,0,0.12);text-align:left}
+.producto img{width:100%;border-radius:8px}
+.video-container{display:flex;justify-content:center;margin:20px 0}
+.video-container iframe{width:100%;max-width:800px;height:420px;border-radius:8px;border:none}
+form.card{background:#fff3e0;padding:20px;border-radius:10px;max-width:520px;margin:0 auto;box-shadow:0 2px 6px rgba(0,0,0,0.12);text-align:left}
+form.card label{display:block;font-weight:600;margin-top:8px}
+form.card input, form.card textarea, form.card select{width:100%;padding:10px;margin-top:6px;border:1px solid #ccc;border-radius:6px}
+.btn{display:inline-block;padding:10px 14px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none;border:none;cursor:pointer;margin-top:10px;font-weight:700}
+.small{font-size:0.95rem}
+.footer{background:var(--accent);color:#fff;text-align:center;padding:16px;margin-top:28px}
+.message{margin-top:10px;font-weight:700}
+.error{color:#c62828}
+.success{color:green}
+.fade{transition:all 0.45s ease}
